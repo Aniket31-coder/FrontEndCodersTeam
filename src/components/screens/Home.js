@@ -33,7 +33,7 @@ class Home extends Component {
   
     for(var i = 0; i < uploads.length; i++) {
       Tesseract.recognize(uploads[i], {
-        lang: 'eng'
+        lang: 'mar'
       })
       .catch(err => {
         console.error(err)
