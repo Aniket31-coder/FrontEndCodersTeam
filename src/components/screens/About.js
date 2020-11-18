@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import face from "../images/face.png";
-import logo from "../images/logo.png";
 
 const About = () => {
     return (
